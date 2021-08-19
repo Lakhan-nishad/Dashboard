@@ -1,14 +1,80 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Dashbord</title>
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Dashboard</title>
+  </head>
+  <body style="background-color: turquoise;">
+    <div
+      style="
+        position: absolute;
+        background-color: orchid;
+        width: 100%;
+        height: 100%;
+      "
+    >
+      <div
+        style="
+          border: 2px solid rgb(132, 0, 255);
+          display: inline-block;
+          width: 20%;
+          height: 100%;
+          position: sticky;
+        "
+      >
+        <div style="background-color: rgb(175, 143, 143); height: 31%;text-align: center;">
+          <img src="res/user.png" alt="image loading..." style="height:80%; margin-top: 5%; width: 60%; border-radius: 70px;">
+          <br>
+          <span style="display: block; margin-top: 5px; font-weight: bold;margin-bottom: 5px;">Lakhan</span>
+        </div>
+        <div style="background-color: rgb(223, 71, 24); height: 67%">
+          <ul>
+            <li>Dashboard</li>
+          </ul>
+        </div>
+      </div>
+      <div
+        style="
+          background-color: rgb(110, 110, 47);
+          width: 79%;
+          display: inline-block;
+          height: 100%;
+          position: absolute;
+        "
+      >
+        <header
+          style="
+            border: 2px solid black;
+            position: fixed;
+            width: 79%;
+            height: 10%;
+            
+          "
+        >
+          <div id="left">Dashboard</div>
 
-    this is a registration page
-    
-</body>
+          <div id="right">
+            <button style="width: 150px; border-radius: 10px; height: 25px">
+              Search
+            </button>
+          </div>
+        </header>
+        <div style="background-color: white; width: 200px; height: 200px; margin-top: 150px; margin-left: 200px; display: inline-block;">
+          Attendance
+        </div>
+        <div style="background-color: white; width: 200px; height: 200px; margin-top: 150px; margin-left: 300px;display: inline-block;">
+          Result
+        </div>
+        <div style="background-color: white; width: 200px; height: 200px; margin-top: 50px; margin-left: 200px; display: inline-block;">
+          Project
+        </div>
+        <div style="background-color: white; width: 200px; height: 200px; margin-top: 50px; margin-left: 300px;display: inline-block;">
+          Marks
+        </div>
+      </div>
+    </div>
+  </body>
 </html>
